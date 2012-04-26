@@ -1,0 +1,71 @@
+body {
+  background: #F2F5F6 url(../img/bg.png) 50% 0 no-repeat;
+}
+
+#wrapper {
+  width: 980px;
+  margin: 0 auto;
+}
+
+#header {
+  padding: 65px 0 50px;
+  text-align: center;
+}
+  #header h2 {
+    padding-top: 20px;
+  }
+  #logo {
+    margin-bottom: 10px;
+  }
+
+#nav {
+  padding: 30px 0;
+  border-top: 3px solid #EEE;
+  border-bottom: 3px solid #EEE;
+  margin: 0 auto;
+  text-align: center;
+}
+  #nav a, #nav span {
+    display: block;
+  }
+  #nav a {
+    float: left;
+    display: inline-block;
+    padding: 0 50px 0;
+    text-decoration: none;
+  }
+  #nav a + a {
+    border-left: #E6E6E6 1px solid;
+  }
+  #nav .main {
+    color: #900;
+    font-size: 19px;
+    text-transform: uppercase;
+  }
+  #nav .subtext {
+    color: #666;
+    font-size: 12px;
+  }
+    #nav a:first-child {
+      margin-left: 21px;
+    }
+
+#footer {
+  border-top: 3px solid #EEE;
+  padding-top: 15px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+
+
+.section {
+  margin-top: 30px;
+}
+.align-right {
+  text-align: right;
+}
+
+101 California Street
+Suite 2710
+San Fransisco CA 94111
